@@ -7,8 +7,10 @@
 \renewcommand{\familydefault}{\sfdefault}
 \begin{document}
 
-% Contact Info
-\input{contact_info.tex}
+%%%%%%%%%%%%%%%%
+% Contact Info %
+%%%%%%%%%%%%%%%%
+\input{.contact_info.tex}
 \begin{center}
 \fontsize{14}{12.8}\selectfont
 \name\\
@@ -20,46 +22,52 @@
 \end{center}
 \vspace{0.5cm}
 
-% Skills
+%%%%%%%%%%
+% Skills %
+%%%%%%%%%%
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} }
-\textbf{Skills:} & & \textbf{Programming Languages:} Python, C, Matlab, Java, LabVIEW\\
-& & \textbf{Microcontrollers:} MSP430, PIC16, SAMv71, Cyclone II (Nios II)\\
+\textbf{Skills:} & & \textbf{Programming Languages:} Python, C, C++, Matlab, Java, LabVIEW\\
+& & \textbf{Microcontrollers:} MSP430, PIC16, SAMv71, Cyclone II (Nios II), OMAP\\
 & & \textbf{Communication Buses:} CAN, LIN, I2C, SPI, I2S, A2B\\
 & & \textbf{Soft Skills:} Data Visualization, Agile, Project Planning, Technical Leadership\\
 & & \\
 \end{tabular}
 
-% Experience
+%%%%%%%%%%%%%%
+% Experience %
+%%%%%%%%%%%%%%
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} >{\raggedleft\arraybackslash}p{3cm} }
 \textbf{Experience:} & & \textbf{Nio, San Jose, California} & \\
 \end{tabular}
 
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} }
 & & \textit{Staff Validation Engineer, Digital Cockpit, 2018 - Present}\\
-& & • Led team of automation engineers to create keyword-driven test framework in Python\\
-& & • Managed team of seven engineers while supervisor was on medical leave\\
-& & • Automated longevity and stress tests using Python to detect hard-to-find bugs\\
-& & • Created Python library and measurement hardware to compare and detect audio signals\\
-& & • Researched and planned strategy for introducing model based tests for HMI and MCU\\
-& & • Created visualization dashboard with Matplotlib to provide insights into longevity test results\\
-& & • Led test creation for new product development to ensure compliance with ISO 26262\\
+& & • Test lead on next-generation digital cockpit; ensured AUTOSAR and ISO 26262 compliance\\
+& & • Managed team of seven engineers for several months while supervisor was on medical leave\\
+& & • Worked closely with vendors and hardware teams to qualify COTS software and hardware\\
+& & • Automated characterization of UFS read/write speeds across OS and hardware configurations\\
+& & • Developed dashboard plugin for TestRail using D3 and Apex Chart to visualize test coverage\\
+& & • Visualized stress and longevity results using Matplotlib; analyzed data and provided insights\\
 & & • Trained new employees and China teams on use of in-house test software and hardware\\
-& & • Worked with hardware development to compare test equipment for EOL tests and bring-up\\
-& & • Setup test benches for remote work, including Python library to control lab power supplies\\
+& & • Created Python library and measurement hardware to compare and detect audio signals\\
+& & • Created Python library to remote control bench top power supplies while working remotely\\
+& & • Led team of automation engineers to create keyword-driven test framework in Python\\
+& & • Researched and planned strategy for introducing model based tests for HMI and MCU\\
 & & \\
 \end{tabular}
 
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} }
 & & \textit{Senior Validation Engineer, Digital Cockpit, 2017-2018}\\
-& & • Created Python libraries to facilitate LIN and UART communication with SUT\\
-& & • Wrote DRAM and eMMC memory tests in C to run on SUT to gauge hardware health\\
-& & • Worked with hardware team to debug eMMC interface and validate proposed solution\\
-& & • Created suite of longevity tests to stress interfaces on SUT (I2C, SPI, CAN, etc...)\\
-& & • Lead intern on image processing project to classify pictures as failures or successes\\
-& & • Used OpenCV to compare images and detect frozen video feeds and other failure modes\\
-& & • Helped China manufacturing debug EOL test issues using LabVIEW and hardware knowledge\\
-& & • Worked with software development and suppliers to debug early boot and I2C bus issues\\
-& & • Setup 50 dedicated testbeds to continuosly run longevity tests and verify patches\\
+& & • Test lead for manufacturing software; ensured EOL diagnostic software quality\\
+& & • Wrote DRAM and eMMC memory tests in C to identify and quantify bit-flip errors\\
+& & • Helped China manufacturing team remotely debug EOL test issues using LabVIEW\\
+& & • Automated system longevity tests that uncovered safety-critical boot-time bugs\\
+& & • Worked with software development and vendors to debug early boot and I2C bus issues\\
+& & • Set up 50 dedicate testbeds to continuously run longevity tests and verify patches\\
+& & • Used OpenCV and Python to detect frozen video feeds and other camera system failure modes\\
+& & • Created Python library to send and receive LIN messages using PCAN-LIN tool\\
+& & • Created Python library to communicate with three OSs on target device with one UART port\\
+& & • Lead intern on image processing project to classify pictures from testbed using OpenCV\\
 & & • Represented American office in China for SUD, Beijing Auto Show, and Shanghai test drives\\
 & & \\
 \end{tabular}
@@ -73,7 +81,8 @@
 & & • QA team lead for 'News on the Web'\\
 & & • Tested new ANF features such as tables, parallax, and social media widgets; defined test plans\\
 & & • Automated tests for article conversion to run as part of the ANF ingestion testing process\\
-& & • Used Python to automated article generation for efficient style and font testing\\
+& & • Wrote article generation tests in Python for efficient style and font testing\\
+& & • Wrote utility using Python and PIL to generate images to test image ingestion pipeline\\
 & & \\
 \end{tabular}
 
@@ -95,15 +104,20 @@
 & & \textbf{Texas Instruments, Dallas, Texas} & \\
 \end{tabular}
 
+% Extra Space to Bump the following to the next page
+\vspace{1cm}
+
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} }
-& & \textit{Product Engineering Intern, Analog Engineering Operations, 2011-2013}\\
+& & \textit{Intern Product Engineer, Analog Engineering Operations, 2011-2013}\\
 & & • Developed test time reduction methodology utilizing features of APU12s for the ETS364\\
 & & • Created a standalone method of characterizing evaluation modules on the Eagle Tester\\
-& & • Characterized new gradient pin leakage test for ALPS business unit\\
+& & • Characterized gradient pin leakage test on LDO regulators for ALPS business unit\\
 & & \\
 \end{tabular}
 
-% Education
+%%%%%%%%%%%%%
+% Education %
+%%%%%%%%%%%%%
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} }
 \textbf{Education:} & & \textbf{McGill University, Montréal, Quebec} \\
 & & Master of Engineering (MEng), Electrical Engineering, May 2017\\
@@ -114,7 +128,9 @@
 & & \\
 \end{tabular}
 
-% Publications
+%%%%%%%%%%%%%%%%
+% Publications %
+%%%%%%%%%%%%%%%%
 \begin{tabular}{ p{1.5cm} p{1cm} p{16cm} }
 \textbf{Publications:} & & \textbf{On the Capacity of Faster-than-Nyquist MIMO Transmission with CSI at the Receiver}\\
 & & 2015 IEEE Globecom Workshops (GC Wkshps)\\
