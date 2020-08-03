@@ -171,6 +171,9 @@ _minted*
 *.nlo
 *.nls
 
+# Mac OS
+.DS_Store
+
 # pax
 *.pax
 
