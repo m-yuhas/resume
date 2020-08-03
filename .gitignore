@@ -171,9 +171,6 @@ _minted*
 *.nlo
 *.nls
 
-# Mac OS
-.DS_Store
-
 # pax
 *.pax
 
@@ -277,6 +274,9 @@ TSWLatexianTemp*
 
 # Makeindex log files
 *.lpz
+
+# Mac OS
+.DS_Store
 
 # Custom for this repository
 .contact_info*
